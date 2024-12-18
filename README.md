@@ -28,11 +28,15 @@ The client requested the following features for this project:
 - Accessibility-first responsive design, compliant with WCAG 2.2 guidelines.
 - An "Accessibility Options" dropdown where users can toggle site features to suit their individual needs.
 
-See below for a screenshot of the project homepage:
+After discussing features, I provided the client with several layout and color scheme mockups. After a period of deliberation and feedback, the following design was approved by the client:
 
-![Screenshot of deployed project](assets/images/project-screenshot.png)
+![Screenshot of project mockup](assets/project-mockup.png)
 
 ## Deployment
+
+See below for a screenshot of the project homepage's current iteration:
+
+![Screenshot of deployed project](assets/project-screenshot.png)
 
 [Link to the GitHub repo for this project](https://github.com/Aoliva96/ousd-makerspace-site)
 
