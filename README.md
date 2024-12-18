@@ -30,13 +30,13 @@ The client requested the following features for this project:
 
 After discussing features, I provided the client with several layout and color scheme mockups. After a period of deliberation and feedback, the following design was approved by the client:
 
-![Screenshot of project mockup](assets/project-mockup.png)
+![Screenshot of project mockup](/assets/images/project-mockup.png)
 
 ## Deployment
 
 See below for a screenshot of the project homepage's current iteration:
 
-![Screenshot of deployed project](assets/project-screenshot.png)
+![Screenshot of deployed project](/assets/images/project-screenshot.png)
 
 [Link to the GitHub repo for this project](https://github.com/Aoliva96/ousd-makerspace-site)
 
