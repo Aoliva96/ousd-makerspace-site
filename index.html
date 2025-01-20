@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YAP Makerspace</title>
+    <!-- TODO: design simple logo for favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
     <header>
       <section id="logo">
+        <!-- TODO(optional): redesign logo SVG for legibility -->
         <img src="/assets/images/YAP-logo.svg" alt="YAP Makerspace logo" />
         <h1>Makerspace</h1>
         <h4>at</h4>
         <h2>OUSD - Young Adult Program</h2>
       </section>
       <section id="searchOptions">
+        <!-- TODO: research site search functionality -->
         <input type="text" id="search" placeholder="Search..." />
         <button class="searchBtn"><i class="icon"></i></button>
         <div class="dropdown">
@@ -41,17 +45,36 @@
         </ul>
       </nav>
     </header>
+    <!-- TODO: develop JS functionality, ref: weather-dashboard -->
+    <section id="alert" class="hider">
+      <div id="message">
+        <p>
+          <!-- Alert banner text example, delete once JS is done -->
+          *** Attention, you are viewing a version of this website that is under
+          active development. If that was not your intent, please notify the
+          team at YAP Makerspace as soon as possible. ***
+        </p>
+      </div>
+      <div>
+        <button id="close">X</button>
+      </div>
+    </section>
     <main>
       <section id="scrollerContainer">
-        <div id="mediaScroller"></div>
+        <div id="mediaScroller">
+          <!-- TODO: research media scroller functionality -->
+        </div>
       </section>
       <section id="about">
         <h2>About Our Program</h2>
+        <a href="/pages/about.html">Click here to learn more</a>
         <p>Learn more about YAP Makerspace and our mission.</p>
       </section>
       <section id="mentors">
         <h2>Our Artists in Residence</h2>
+        <a href="/pages/mentors.html">Click here to learn more</a>
         <p>
+          <!-- TODO: setup JS to populate featured blurbs from mentor profiles -->
           Learn more about the amazing artists working to mentor our interns at
           Makerspace.
         </p>
@@ -85,22 +108,48 @@
           <a href="https://www.ousd.org/">www.ousd.org</a>
         </div>
       </section>
-      <h2>Quick Links</h2>
-      <ul>
-        <li>
-          <a href="#">Fundraising and Donations</a>
-        </li>
-        <li>
-          <a href="#">Volunteer Opportunities</a>
-        </li>
-        <li>
-          <a href="#">OUSD Young Adult Program Page</a>
-        </li>
-        <li>
-          <a href="#">Admin Portal</a>
-        </li>
-      </ul>
-      <div id="copyBar"><p>&copy; 2024 YAP MAKERSPACE</p></div>
+      <section id="socials">
+        <!-- TODO: design social media link/icon & update footer layout to fit -->
+        <h2>Social Media</h2>
+        <p>
+          Follow our Instagram to stay up-to-date with the latest news from YAP
+          Makerspace, or to get in touch with a member of our team!
+        </p>
+        <a href="https://www.instagram.com/yapmakerspace/">
+          <i class="iconSocial"></i>
+        </a>
+      </section>
+      <section id="quickLinks">
+        <!-- TODO: check all <a> paths to sections of full pages when done -->
+        <h2>Quick Links</h2>
+        <ul>
+          <li>
+            <a href="/pages/about.html#fundraising" class="quickLink"
+              >Fundraising and Donations</a
+            >
+          </li>
+          <li>
+            <a href="/pages/mentors.html#howToApply" class="quickLink"
+              >Artists in Residence: How to Apply</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.ousd.org/specialeducation/programs/young-adult-program"
+              class="quickLink"
+              >OUSD Young Adult Program Info Page</a
+            >
+          </li>
+          <li>
+            <a href="/pages/admin.html" class="quickLink">Admin Portal</a>
+          </li>
+        </ul>
+      </section>
+      <section id="footerBtns">
+        <!-- TODO: copy functionality from header searchOptions section when done  -->
+        <!-- TODO(optional): add 'back to top' button after accessibility options -->
+      </section>
+      <div id="copyBar"><p>&copy; 2025 YAP MAKERSPACE</p></div>
     </footer>
   </body>
 </html>

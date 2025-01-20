@@ -57,6 +57,8 @@ See the links below to see some of the resources I used for this project:
 
 [link title placeholder](#)
 
+[Normalize CSS v8.0.1 | MIT](https://github.com/necolas/normalize.css)
+
 [GitHub Copilot](https://github.com/features/copilot) was utilized for code optimization and reference while developing this project.
 
 ## License
